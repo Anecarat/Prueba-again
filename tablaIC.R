@@ -23,3 +23,5 @@ datos2<-datos %>%
   select(NOM_ENT, NOMBRE, ICpm25, ICno2, ICo31h, ICo38h) %>%
   write.csv("tablaIC_raw.csv", row.names = F)
 
+#Vamos a editar de ejemplo este archivo
+objeto<-c(1,2,3,4,5)
